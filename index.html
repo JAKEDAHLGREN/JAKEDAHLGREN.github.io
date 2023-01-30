@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"></html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+
+  <div>
+    <title class="title">Where did I leave my keys?</title>
+  </div>  
+    <h1 class="h1">Where did I leave my keys?</h1>
+    </head>
+<body class="body">
+    <ul class="keylist">
+        <li>Click on a box to try to locate your keys</li>
+        <li>If you uncover a sad face you lose</li>
+        <li>If you reveal your keys you win!</li>
+        <li>If you find a magnifying glass keep looking</li>
+    </ul>
+<table class="table" border=1>
+    <tr>
+        <td id=0 onclick="treasurehunt(0)">In the couch</td>
+        <td id=1 onclick="treasurehunt(1)">Under the bed</td>
+        <td id=2 onclick="treasurehunt(2)">The refrigerator</td>
+    </tr>
+    <tr>
+        <td id=3 onclick="treasurehunt(3)">In your pocket</td>
+        <td id=4 onclick="treasurehunt(4)">On your desk</td>
+        <td id=5 onclick="treasurehunt(5)">In the door</td>
+    </tr>
+    <tr>
+        <td id=6 onclick="treasurehunt(6)">In your hand</td>
+        <td id=7 onclick="treasurehunt(7)">By the TV</td>
+        <td id=8 onclick="treasurehunt(8)">In the bathroom</td>
+    </tr>
+</table>
+<button class="button" type="button" onclick="location.reload()">Restart Game</button>
+<br>
+
+    <script type="text/javascript" src="treasurehunt.js"></script>   
+</body>
+</html>

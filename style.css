@@ -1,0 +1,48 @@
+* {
+    text-align: center;     
+} 
+
+.h1{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size:60px;
+    letter-spacing: -0.2px;
+    word-spacing: -1.4px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase; 
+}
+
+.body{
+    background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/is12545-image-kwvyfeo1.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=19b7ba375ac42d28731098bb74b94b2d");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+
+.keylist{
+    width: 300px;
+    margin: auto;
+    padding: .5in;
+}
+
+.table{
+margin: auto; 
+font-size: large;
+background-color: rgb(203, 160, 132); 
+}
+
+.button{
+    margin: .25in;
+    font-size: larger;
+        color: rgb(248, 254, 255); font-size: 17px; line-height: 17px; padding: 9px; border-radius: 14px; font-family: Impact, Charcoal, sans-serif; font-weight: 700; text-decoration: underline solid rgb(68, 68, 68); font-style: italic; font-variant: normal; text-transform: uppercase; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+        .button:hover {
+        background: #1C6EA4; }
+        .button:active {
+        background: #144E75; 
+    }
+
